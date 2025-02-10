@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Marvin;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    background-color: beige;
+}
+
+header {
+    height: 10vh;
+    width: auto;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+.clockContainer {
+    min-height: 90vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    height: 15rem;
+    width: 15rem;
+    border: .5rem solid rgb(255, 255, 255);
+    border-radius: 100%;
+    margin-bottom: 10vh;
+}
+
+#minutePointer {
+    width: 45%;
+    height: .5rem;  
+    background-color: black;
+    border-radius: .5rem;
+    position: relative;
+    top: 7.25rem;
+    left: 5%;
+    transform-origin: center right;
+}
+
+#hourPointer {
+    width: 25%;
+    height: .5rem;
+    background-color: black;
+    border-radius: .5rem;
+    position: relative;
+    top: 6.75rem;
+    left: 25%;
+    transform-origin: center right;
+}
+
+#secondPointer {
+    width: 45%;
+    height: .25rem;
+    background-color: black;
+    border-radius: .5rem;
+    position: relative;
+    top: 6.375rem;
+    left: 5%;
+    transform-origin: center right;
+}
+
+#minutePointer, #hourPointer, #secondPointer {
+    transition: transform 1s linear;
+}
+
