@@ -1,4 +1,4 @@
-# CSS Clock
+# 🕑 CSS Clock 🕑
 
 This project is a simple CSS clock that displays the current time using HTML, CSS, and JavaScript.
 
